@@ -34,7 +34,7 @@ The agent needs authenticated `gh`, `git`, and network access. It uses your exis
 ## Workflow
 
 1. Identify the public project and verify its documented capabilities and license.
-2. Use the supplied target, or shortlist up to five relevant lists and select one eligible target by default.
+2. Use the supplied target, or search `awesome-awesome` for broad category indexes, drill down into specific lists, then shortlist up to five candidates and select one eligible target by default.
 3. Read contribution rules, templates, category conventions and eligibility requirements.
 4. Search existing entries and open/closed nominations.
 5. Prepare the smallest valid change and run relevant local checks.
@@ -47,7 +47,7 @@ This is an instruction skill, not an unattended daemon or a guarantee of accepta
 ## Files and validation
 
 - [`SKILL.md`](SKILL.md): portable workflow and safety boundaries.
-- [`evals/evals.json`](evals/evals.json): scenario prompts and expected outcomes; test with fixtures or read-only/dry-run tools, not live unsolicited PRs.
+- [`evals/evals.json`](evals/evals.json): seven scenario prompts and expected outcomes; test with fixtures or read-only/dry-run tools, not live unsolicited PRs.
 - [`scripts/validate.py`](scripts/validate.py): dependency-free structural and scenario checks.
 
 Run local structural validation:

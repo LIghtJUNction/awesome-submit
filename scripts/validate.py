@@ -24,7 +24,8 @@ def validate(root=ROOT):
             assert (root / target).is_file(), f"Broken local link: {target}"
     cases = json.loads((root / "evals/evals.json").read_text())
     assert cases["skill_name"] == fields["name"]
-    assert len(cases["evals"]) >= 6
+    assert len(cases["evals"]) >= 7
+    assert "awesome-awesome" in body, "Missing broad-to-specific discovery guidance"
     ids = set()
     for case in cases["evals"]:
         assert case["id"] not in ids, "Duplicate scenario ID"

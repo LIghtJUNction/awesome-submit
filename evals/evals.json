@@ -43,6 +43,13 @@
       "expected_output": "Report rejection history and current policy; do not create a new nomination or send follow-up comments.",
       "files": [],
       "assertions": ["Respects rejection history", "Respects automation restrictions", "Does not spam maintainers"]
+    },
+    {
+      "id": 7,
+      "prompt": "我的公开 Agent Skill OWNER/tool 应该投哪个 awesome list？请自动选一个合适的，但先只给草稿。测试资料：awesome-awesome 搜索找到综合索引，索引只有 AI 大类，没有直接链接任何 skills 列表；细分搜索可找到符合条件的 awesome-agent-skills。使用模拟 GitHub 工具。",
+      "expected_output": "Search awesome-awesome first, inspect a broad index and its relevant category, then use a niche search when the index lacks a direct match. Record the actual path without inventing an index-to-target link. Return a draft without writes.",
+      "files": [],
+      "assertions": ["Searches awesome-awesome before niche discovery", "Navigates from broad category to specific lists", "Does not fabricate direct index links", "Does not write during draft-only work"]
     }
   ]
 }

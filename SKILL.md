@@ -28,7 +28,7 @@ Read the project README, license text, current releases/package metadata, public
 
 Use the current API and source files as evidence, not earlier chat claims. Distinguish what you inspected from what you executed: copying an installation command does not mean installation was tested. Do not install or run the nominated tool merely to write a listing.
 
-For discovery, use project-specific topics, languages and use cases, e.g. `gh search repos 'awesome agent tools' --limit 10`. Search is candidate discovery, not evidence that a list accepts the project. Favor topical relevance and maintained submission policies over star count alone.
+For discovery without an explicit target, start broad: search the exact keyword `awesome-awesome` (e.g. `gh search repos 'awesome-awesome' --limit 10`) to find indexes of awesome lists. Read a suitable index and identify the project's broad category, then follow its links into progressively more specific categories and lists. If an index does not cover the niche, continue with project-specific topics, languages and use cases, e.g. `gh search repos 'awesome agent skills' --limit 10`. Record the actual discovery path; never imply that an index links to a target unless you verified that link. Search is candidate discovery, not evidence that a list accepts the project. Favor topical relevance and maintained submission policies over star count alone.
 
 ## 3. Read the target's rules before editing
 
