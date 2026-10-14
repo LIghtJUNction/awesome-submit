@@ -44,6 +44,10 @@ Hard eligibility failures, closed submissions and prohibitions on self-promotion
 
 This is an instruction skill, not an unattended daemon or a guarantee of acceptance. It does not add a scheduled task. List maintainers decide whether to accept a contribution.
 
+## Real submission example
+
+[中文实战教程：用 awesome-submit 把自己投稿到 awesome list](examples/submit-yourself.zh-CN.md) records category discovery, eligibility checks, the actual one-line contribution, and remote verification of [PR #205](https://github.com/skillmatic-ai/awesome-agent-skills/pull/205). At the recorded check, the PR was open and awaiting review, not accepted. The tutorial includes reusable commands and explicitly distinguishes static checks from model behavior tests.
+
 ## Files and validation
 
 - [`SKILL.md`](SKILL.md): portable workflow and safety boundaries.
