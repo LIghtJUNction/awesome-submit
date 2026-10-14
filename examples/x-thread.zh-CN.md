@@ -1,6 +1,14 @@
-# X 推广与实战教程串（待发布草稿）
+# X 推广与实战教程串（已发布）
 
-状态：尚未通过 X 帖子永久链接验证发布。下面每段为一条帖子；按顺序组成一个串，不要全部塞进单条。发布后应核实账号、正文和各条永久链接，再另行记录结果。
+状态：2026-10-14 UTC，已通过 Playwright 连接用户授权的现有 Chrome，在 `@LIghtJUNction_x` 发布。每条发布后均读取页面中的正文与永久链接；第 2–5 条依次回复上一条。
+
+1. [项目介绍](https://x.com/LIghtJUNction_x/status/2110439146447876528)
+2. [从大类到细分类](https://x.com/LIghtJUNction_x/status/2110439328623259893)
+3. [资格筛选](https://x.com/LIghtJUNction_x/status/2110439556491387145)
+4. [真实投稿与状态](https://x.com/LIghtJUNction_x/status/2110439666969440280)
+5. [教程与安装方式](https://x.com/LIghtJUNction_x/status/2110439779901063233)
+
+下面保留实际发布文案，不要重新批量执行。
 
 ## 1/5 — 项目
 
